@@ -42,8 +42,12 @@ Hand it a GMC policy PDF from any insurer and it will:
 7. Write out a clean `final_output.json` for downstream systems, and a
    separate `evidence.json` that says exactly where every value came from.
 
-The sample corpus — four documents across three insurers, including one
-that's deliberately *not* a GMC policy — lives under `data/input/`.
+Development and evaluation used a sample corpus of four documents across
+three insurers, including one that's deliberately *not* a GMC policy (see
+[Results](#results)). Those PDFs aren't bundled in this repo — they're the
+assignment's own sample documents, not this project's to redistribute — so
+`data/input/` ships empty; drop your own GMC policy PDFs in there to run
+the pipeline.
 
 ## Architecture
 

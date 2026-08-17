@@ -2,8 +2,7 @@
 
 Turns Group Medical Cover (GMC) insurance policy PDFs — messy, differently
 formatted across insurers — into clean structured JSON, with a page-level
-citation for every field it pulls out. Built for the AI/LLM Engineering
-Intern – Document Intelligence assignment.
+citation for every field it pulls out. 
 
 **The 30-second version:** PDF in → classify it → pull text and tables →
 find the relevant sections → ask an LLM to fill in a validated schema, one
@@ -61,8 +60,11 @@ git clone <this-repo>
 cd gmc-document-intelligence
 make setup                       # venv, deps, copies .env.example -> .env
 # add one LLM API key to .env — Groq and Gemini both have free tiers
+# drop your GMC policy PDFs into data/input/ (not bundled in the repo -
+# these are the assignment's own sample documents, so no need to ship
+# a copy back to the same reviewer who already has them)
 python run_pipeline.py           # processes everything in data/input/
-make test                        # 123 tests, no API key required
+make test                        # 123 tests, no API key or PDFs required
 ```
 
 ## What it actually produces

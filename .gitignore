@@ -28,12 +28,7 @@ Thumbs.db
 !.vscode/extensions.json
 .idea/
 
-# data/output/ holds this project's actual generated results
 
 
-data/input/1_Policy_Copy.pdf
-data/input/GHI_Policy.pdf
-data/input/Net_Catalyst_-_GPA_-_Policy_Copy_-_2022-23.pdf
-data/input/olj4KTUo9B1546-1692687606_925469_-_00_GMC_Renewal_Policy_00.pdf
-data/input/Policy_liberty_2022-2023.pdf
+data/input/*.pdf
 
