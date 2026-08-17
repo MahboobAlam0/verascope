@@ -65,6 +65,7 @@ make setup                       # venv, deps, copies .env.example -> .env
 # a copy back to the same reviewer who already has them)
 python run_pipeline.py           # processes everything in data/input/
 make test                        # 123 tests, no API key or PDFs required
+# no `make`? python -m venv .venv && pip install -r requirements.txt works the same
 ```
 
 ## What it actually produces

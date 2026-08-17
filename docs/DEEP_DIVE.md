@@ -42,9 +42,13 @@ Hand it a GMC policy PDF from any insurer and it will:
 7. Write out a clean `final_output.json` for downstream systems, and a
    separate `evidence.json` that says exactly where every value came from.
 
-Development and evaluation used a sample corpus of four documents across
-three insurers, including one that's deliberately *not* a GMC policy (see
-[Results](#results)). Those PDFs aren't bundled in this repo — they're the
+Development and evaluation used a sample corpus of five documents: three
+real GMC policies across two insurers (Care Health has two policyholder
+documents, Niva Bupa has one), plus two documents that are deliberately
+*not* GMC policies — a Group Personal Accident policy and an unrelated
+Liberty document — included specifically to check Stage 0 rejects them
+correctly (see [Results](#results)). Those PDFs aren't bundled in this
+repo — they're the
 assignment's own sample documents, not this project's to redistribute — so
 `data/input/` ships empty; drop your own GMC policy PDFs in there to run
 the pipeline.
@@ -175,6 +179,17 @@ into system Python. That's not just tidiness — modern Debian/Ubuntu (PEP
 668) will flatly refuse a plain `pip install` outside a venv, which is a
 failure this project's own setup ran into and fixed, not a hypothetical.
 
+No `make` on your machine (this is genuinely common on plain Windows —
+this project's own dev machine doesn't have it either)? Run what `make
+setup` does by hand:
+
+```bash
+python -m venv .venv
+.venv/Scripts/pip install -r requirements.txt      # Windows
+# .venv/bin/pip install -r requirements.txt        # Linux/Mac
+cp .env.example .env
+```
+
 OCR needs the actual Tesseract engine as a system binary — `pytesseract` is
 just a thin wrapper around it:
 
@@ -194,10 +209,10 @@ on Linux/Mac puts it on PATH automatically. None of the sample documents
 are scanned, so this only matters if you bring your own.
 
 ```bash
-source .venv/bin/activate
+source .venv/Scripts/activate     # Windows (Git Bash) — Linux/Mac: .venv/bin/activate
 python run_pipeline.py                       # processes every PDF in data/input/
 python run_pipeline.py --input data/input --output data/output
-make test                                     # run all 123 tests
+make test                                     # run all 123 tests (no make? python -m pytest tests/)
 python -m src.evaluation.metrics              # compare output vs. ground truth
 ```
 
@@ -593,8 +608,17 @@ Contradiction detection flags disagreement between a field's own evidence
 rather than silently resolving it. Normalization functions return nothing
 on unparseable input instead of guessing at a value.
 
-**Reproducibility.** `make setup && make test` verified from a genuinely
-clean machine state, nothing pre-installed.
+**Reproducibility.** The underlying commands (`python -m venv`, `pip
+install -r requirements.txt`, `python -m pytest`) are what's actually been
+run and verified repeatedly on this project's own dev machine — a plain
+Windows box with no `make` installed, which is exactly what surfaced a real
+bug in the `Makefile` itself: it called `python3` (a dead Windows Store
+alias, not a real interpreter) and hardcoded a Unix venv layout
+(`.venv/bin/...`) that doesn't exist on Windows (`.venv/Scripts/...`).
+Fixed to detect the platform instead of assuming one. Said plainly: `make
+setup && make test` as one command was not verified end-to-end on a machine
+without `make`, since there wasn't one available to test it on — the
+equivalent manual commands were, including the platform bug this exposed.
 
 **Security.** `.env` is git-ignored, no key is hardcoded anywhere, and
 `.env.example` ships with empty placeholders only.

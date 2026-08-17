@@ -5,7 +5,8 @@ pdfplumber==0.11.9   # table extraction
 # OCR fallback (Phase 3) - only invoked per-page when text_density_ok()
 # reports insufficient native text; see src/ingestion/ocr_fallback.py.
 # Requires the Tesseract OCR engine installed separately as a system binary
-# (not a pip package) - see README Installation for the command per OS.
+# (not a pip package) - see docs/DEEP_DIVE.md Getting Started for the
+# install command per OS.
 pytesseract==0.3.13
 pillow==12.3.0
 
