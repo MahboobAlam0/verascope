@@ -1,0 +1,28 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Run Pipeline (all sample PDFs)",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/run_pipeline.py",
+      "console": "integratedTerminal",
+      "envFile": "${workspaceFolder}/.env"
+    },
+    {
+      "name": "Run Evaluation",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "src.evaluation.metrics",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Debug Current Test File",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "pytest",
+      "args": ["${file}", "-v"],
+      "console": "integratedTerminal"
+    }
+  ]
+}

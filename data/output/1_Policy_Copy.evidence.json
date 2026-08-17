@@ -1,0 +1,206 @@
+{
+  "insurer_and_tpa.insurer_name": [
+    {
+      "page": 1,
+      "text": "Care Health Insurance Ltd.",
+      "chunk_id": null
+    }
+  ],
+  "previous_policy.policy_period_start": [
+    {
+      "page": 1,
+      "text": "Policy Period - Start Date 00:00 hrs 02-Apr-2022",
+      "chunk_id": null
+    }
+  ],
+  "previous_policy.policy_period_end": [
+    {
+      "page": 1,
+      "text": "Policy Period - End Date Midnight 01-Apr-2023",
+      "chunk_id": null
+    }
+  ],
+  "policy_structure.family_structure_description": [
+    {
+      "page": 2,
+      "text": "Family Structure : Self + Spouse + 2 Dependent children",
+      "chunk_id": null
+    }
+  ],
+  "demographics.primary_insured_members": [
+    {
+      "page": 1,
+      "text": "Primary Insured Members 115",
+      "chunk_id": null
+    }
+  ],
+  "demographics.dependents_total": [
+    {
+      "page": 1,
+      "text": "Dependents 32",
+      "chunk_id": null
+    }
+  ],
+  "demographics.total_lives_covered": [
+    {
+      "page": 1,
+      "text": "Total 147",
+      "chunk_id": null
+    }
+  ],
+  "hospitalization.room_rent.room_rent_normal": [
+    {
+      "page": 2,
+      "text": "2 % of Sum Insured per day",
+      "chunk_id": null
+    },
+    {
+      "page": 2,
+      "text": "If the Insured Member is admitted in a room where the room rent incurred is higher than the room rent limit specified above, then the Insured Member shall bear the ratable proportion of the total Medical Expenses in the proportion of the room rent actually incurred- room rent limit/room rent actually incurred.",
+      "chunk_id": null
+    }
+  ],
+  "hospitalization.room_rent.room_rent_icu": [
+    {
+      "page": 2,
+      "text": "4 % of Sum Insured per day",
+      "chunk_id": null
+    },
+    {
+      "page": 2,
+      "text": "If the Insured Member is admitted in a room where the room rent incurred is higher than the room rent limit specified above, then the Insured Member shall bear the ratable proportion of the total Medical Expenses in the proportion of the room rent actually incurred- room rent limit/room rent actually incurred.",
+      "chunk_id": null
+    }
+  ],
+  "hospitalization.pre_hospitalization_days": [
+    {
+      "page": 2,
+      "text": "Pre & Post Hospitalization is covered for 30 days and 60 days respectively.",
+      "chunk_id": null
+    }
+  ],
+  "hospitalization.post_hospitalization_days": [
+    {
+      "page": 2,
+      "text": "Pre & Post Hospitalization is covered for 30 days and 60 days respectively.",
+      "chunk_id": null
+    }
+  ],
+  "maternity.waiting_period_9_month": [
+    {
+      "page": 2,
+      "text": "9 month waiting period in respect of maternity claims waived for all Insured Members.",
+      "chunk_id": null
+    }
+  ],
+  "maternity.baby_day_one_cover": [
+    {
+      "page": 2,
+      "text": "New Born Baby covered from day one within family floater Sum Insured.",
+      "chunk_id": null
+    }
+  ],
+  "maternity.normal_delivery_limit": [
+    {
+      "page": 2,
+      "text": "Maximum Limit for Maternity claims is Rs. 50,000 for Normal and Rs. 50,000 for LSCS",
+      "chunk_id": null
+    }
+  ],
+  "maternity.c_section_limit": [
+    {
+      "page": 2,
+      "text": "Maximum Limit for Maternity claims is Rs. 50,000 for Normal and Rs. 50,000 for LSCS",
+      "chunk_id": null
+    }
+  ],
+  "waiting_periods.initial_30_day": [
+    {
+      "page": 2,
+      "text": "30 Days Wait Period condition is waived for existing members and new joinees.",
+      "chunk_id": null
+    }
+  ],
+  "waiting_periods.first_second_year": [
+    {
+      "page": 2,
+      "text": "First & Second year exclusion condition for specific diseases is waived for all Insured Members.",
+      "chunk_id": null
+    }
+  ],
+  "waiting_periods.pre_existing_disease": [
+    {
+      "page": 2,
+      "text": "Pre-existing diseases are covered for existing members and new joinees.",
+      "chunk_id": null
+    }
+  ],
+  "other_benefits.day_care": [
+    {
+      "page": 2,
+      "text": "Day Care Treatment : List of Day Care procedure attached as \u201cAnnexure A under Know your policy Better\u201d",
+      "chunk_id": null
+    }
+  ],
+  "other_benefits.teleconsultation": [
+    {
+      "page": 2,
+      "text": "3. Econsultation (General Physician) covred in the policy.",
+      "chunk_id": null
+    }
+  ],
+  "other_benefits.domiciliary_hospitalization": [
+    {
+      "page": 3,
+      "text": "7. Domiciliary Hospitalization is specifically excluded unless mentioned specifically.",
+      "chunk_id": null
+    }
+  ],
+  "other_benefits.modern_treatment": [
+    {
+      "page": 2,
+      "text": "2. Modern treatments, psychiatric treatments and Bariatric Surgery covered under the policy as per terms and conditions upto 50% of the Sum Insured.",
+      "chunk_id": null
+    }
+  ],
+  "other_benefits.bariatric_treatment": [
+    {
+      "page": 2,
+      "text": "2. Modern treatments, psychiatric treatments and Bariatric Surgery covered under the policy as per terms and conditions upto 50% of the Sum Insured.",
+      "chunk_id": null
+    }
+  ],
+  "other_benefits.psychiatric_treatment": [
+    {
+      "page": 2,
+      "text": "2. Modern treatments, psychiatric treatments and Bariatric Surgery covered under the policy as per terms and conditions upto 50% of the Sum Insured.",
+      "chunk_id": null
+    }
+  ],
+  "infertility_and_ambulance.infertility_treatment": [
+    {
+      "page": 3,
+      "text": "Infertility & related ailments including male sterility , treatment on trial /experimental basis; ... are outside the scope of this policy.",
+      "chunk_id": null
+    }
+  ],
+  "infertility_and_ambulance.ambulance": [
+    {
+      "page": 2,
+      "text": "Ambulance charges payable up to a maximum amount of Rs. 2,000/- per claim.",
+      "chunk_id": null
+    }
+  ],
+  "buffer_and_waivers.corporate_buffer_limit": [
+    {
+      "page": 1,
+      "text": "Cover type Main Floater",
+      "chunk_id": null
+    },
+    {
+      "page": 1,
+      "text": "Total Sum Insured 51,900,000",
+      "chunk_id": null
+    }
+  ]
+}

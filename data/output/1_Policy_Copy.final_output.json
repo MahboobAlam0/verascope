@@ -1,0 +1,316 @@
+{
+  "document_metadata": {
+    "source_filename": "1_Policy_Copy.pdf",
+    "document_type": "gmc_policy",
+    "document_type_confidence": 1.0,
+    "page_count": 4
+  },
+  "insurer_and_tpa": {
+    "insurer_name": {
+      "value": "Care Health Insurance Ltd.",
+      "found": true
+    },
+    "tpa_name": {
+      "value": null,
+      "found": false
+    }
+  },
+  "previous_policy": {
+    "policy_period_start": {
+      "value": "2022-04-02",
+      "found": true
+    },
+    "policy_period_end": {
+      "value": "2023-04-01",
+      "found": true
+    },
+    "policy_tenure": {
+      "value": null,
+      "found": false
+    },
+    "inception_premium": {
+      "value": null,
+      "found": false
+    }
+  },
+  "policy_structure": {
+    "family_structure_description": {
+      "value": "Self + Spouse + 2 Dependent children",
+      "found": true
+    },
+    "sum_insured_tiers": [
+      300000.0,
+      500000.0
+    ]
+  },
+  "demographics": {
+    "primary_insured_members": {
+      "value": 115.0,
+      "found": true
+    },
+    "dependents_total": {
+      "value": 32.0,
+      "found": true
+    },
+    "total_lives_covered": {
+      "value": 147.0,
+      "found": true
+    },
+    "employees": {
+      "value": null,
+      "found": false
+    },
+    "spouses": {
+      "value": null,
+      "found": false
+    },
+    "children": {
+      "value": null,
+      "found": false
+    },
+    "parents": {
+      "value": null,
+      "found": false
+    },
+    "parents_in_law": {
+      "value": null,
+      "found": false
+    }
+  },
+  "hospitalization": {
+    "room_rent": {
+      "room_rent_normal": {
+        "status": "covered",
+        "limit": {
+          "limit_type": "percent_of_si",
+          "amount": 2.0,
+          "currency": null
+        },
+        "conditions": [
+          "If the Insured Member is admitted in a room where the room rent incurred is higher than the room rent limit specified above, then the Insured Member shall bear the ratable proportion of the total Medical Expenses in the proportion of the room rent actually incurred- room rent limit/room rent actually incurred."
+        ]
+      },
+      "room_rent_icu": {
+        "status": "covered",
+        "limit": {
+          "limit_type": "percent_of_si",
+          "amount": 4.0,
+          "currency": null
+        },
+        "conditions": [
+          "If the Insured Member is admitted in a room where the room rent incurred is higher than the room rent limit specified above, then the Insured Member shall bear the ratable proportion of the total Medical Expenses in the proportion of the room rent actually incurred- room rent limit/room rent actually incurred."
+        ]
+      }
+    },
+    "pre_hospitalization_days": {
+      "value": 30.0,
+      "found": true
+    },
+    "post_hospitalization_days": {
+      "value": 60.0,
+      "found": true
+    }
+  },
+  "maternity": {
+    "waiting_period_9_month": {
+      "status": "waived_off",
+      "limit": null,
+      "conditions": []
+    },
+    "baby_day_one_cover": {
+      "status": "covered",
+      "limit": null,
+      "conditions": [
+        "covered from day one within family floater Sum Insured"
+      ]
+    },
+    "vaccination_coverage": {
+      "status": "not_specified",
+      "limit": null,
+      "conditions": []
+    },
+    "normal_delivery_limit": {
+      "status": "covered",
+      "limit": {
+        "limit_type": "flat_amount",
+        "amount": 50000.0,
+        "currency": "Rs."
+      },
+      "conditions": []
+    },
+    "normal_delivery_limit_metro": {
+      "status": "not_specified",
+      "limit": null,
+      "conditions": []
+    },
+    "normal_delivery_limit_non_metro": {
+      "status": "not_specified",
+      "limit": null,
+      "conditions": []
+    },
+    "c_section_limit": {
+      "status": "covered",
+      "limit": {
+        "limit_type": "flat_amount",
+        "amount": 50000.0,
+        "currency": "Rs."
+      },
+      "conditions": []
+    },
+    "c_section_limit_metro": {
+      "status": "not_specified",
+      "limit": null,
+      "conditions": []
+    },
+    "c_section_limit_non_metro": {
+      "status": "not_specified",
+      "limit": null,
+      "conditions": []
+    }
+  },
+  "waiting_periods": {
+    "initial_30_day": {
+      "status": "waived_off",
+      "limit": null,
+      "conditions": [
+        "30 Days Wait Period condition is waived for existing members and new joinees."
+      ]
+    },
+    "first_second_year": {
+      "status": "waived_off",
+      "limit": null,
+      "conditions": [
+        "First & Second year exclusion condition for specific diseases is waived for all Insured Members."
+      ]
+    },
+    "pre_existing_disease": {
+      "status": "covered",
+      "limit": null,
+      "conditions": [
+        "Pre-existing diseases are covered for existing members and new joinees."
+      ]
+    }
+  },
+  "other_benefits": {
+    "day_care": {
+      "status": "not_specified",
+      "limit": null,
+      "conditions": []
+    },
+    "opd": {
+      "status": "not_specified",
+      "limit": null,
+      "conditions": []
+    },
+    "teleconsultation": {
+      "status": "covered",
+      "limit": null,
+      "conditions": []
+    },
+    "pharmacy_discount": {
+      "status": "not_specified",
+      "limit": null,
+      "conditions": []
+    },
+    "domiciliary_hospitalization": {
+      "status": "not_covered",
+      "limit": null,
+      "conditions": []
+    },
+    "annual_health_checkup": {
+      "status": "not_specified",
+      "limit": null,
+      "conditions": []
+    },
+    "modern_treatment": {
+      "status": "covered",
+      "limit": {
+        "limit_type": "percent_of_si",
+        "amount": 50.0,
+        "currency": null
+      },
+      "conditions": []
+    },
+    "bariatric_treatment": {
+      "status": "covered",
+      "limit": {
+        "limit_type": "percent_of_si",
+        "amount": 50.0,
+        "currency": null
+      },
+      "conditions": []
+    },
+    "psychiatric_treatment": {
+      "status": "covered",
+      "limit": {
+        "limit_type": "percent_of_si",
+        "amount": 50.0,
+        "currency": null
+      },
+      "conditions": []
+    },
+    "ayush_treatment": {
+      "status": "not_specified",
+      "limit": null,
+      "conditions": []
+    },
+    "lgbtq_coverage": {
+      "status": "not_specified",
+      "limit": null,
+      "conditions": []
+    },
+    "live_in_partner_coverage": {
+      "status": "not_specified",
+      "limit": null,
+      "conditions": []
+    },
+    "organ_donor_expenses": {
+      "status": "not_specified",
+      "limit": null,
+      "conditions": []
+    }
+  },
+  "infertility_and_ambulance": {
+    "infertility_treatment": {
+      "status": "not_covered",
+      "limit": null,
+      "conditions": []
+    },
+    "surrogacy": {
+      "status": "not_specified",
+      "limit": null,
+      "conditions": []
+    },
+    "ambulance": {
+      "status": "covered",
+      "limit": {
+        "limit_type": "flat_amount",
+        "amount": 2000.0,
+        "currency": "Rs."
+      },
+      "conditions": []
+    },
+    "air_ambulance": {
+      "status": "not_specified",
+      "limit": null,
+      "conditions": []
+    }
+  },
+  "buffer_and_waivers": {
+    "corporate_buffer_limit": {
+      "status": "covered",
+      "limit": {
+        "limit_type": "flat_amount",
+        "amount": 51900000.0,
+        "currency": null
+      },
+      "conditions": [
+        "Main Floater"
+      ]
+    },
+    "disease_wise_capping": []
+  },
+  "processing_notes": [
+    "Missing required fields: insurer_and_tpa.tpa_name"
+  ]
+}

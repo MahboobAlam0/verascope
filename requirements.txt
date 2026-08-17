@@ -1,0 +1,38 @@
+# Core PDF ingestion (Phase 2)
+pymupdf==1.28.2      # native text + image extraction
+pdfplumber==0.11.9   # table extraction
+
+# OCR fallback (Phase 3) - only invoked per-page when text_density_ok()
+# reports insufficient native text; see src/ingestion/ocr_fallback.py.
+# Requires the Tesseract OCR engine installed separately as a system binary
+# (not a pip package) - see README Installation for the command per OS.
+pytesseract==0.3.13
+pillow==12.3.0
+
+# Schema / validation (Phase 1, 10)
+pydantic==2.13.4
+pydantic-settings==2.15.0
+
+# Config / secrets management
+python-dotenv==1.0.1
+
+# Testing (Phase 13)
+pytest==9.1.1
+
+# Date parsing (Phase 9 normalization - insurance docs use many date formats)
+python-dateutil==2.9.0.post0
+
+# LLM providers (Phase 7) - only the one selected via LLM_PROVIDER is actually
+# invoked at runtime (see src/extraction/llm_client.py), but all are listed
+# here so any can be selected without a separate install step. Groq's API is
+# OpenAI-SDK-compatible (see src/extraction/groq_client.py), so it reuses the
+# `openai` package rather than needing its own SDK.
+anthropic==0.121.0
+openai==3.0.0
+
+# --------------------------------------------------------------------------
+# NOT ADDED (intentionally):
+# - Retrieval library (rank-bm25 or embeddings): evaluated and deliberately
+#   NOT added - see src/retrieval/ design rationale. Heading-canonical +
+#   keyword-overlap retrieval proved sufficient on the sample set.
+# --------------------------------------------------------------------------

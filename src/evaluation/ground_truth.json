@@ -1,0 +1,52 @@
+{
+  "_note": "Values below were read directly from the source PDFs by hand during development (see Document Analysis Report). Field paths match the dotted paths used in final_output.json. This file supports the evaluation harness in src/evaluation/metrics.py; it does not itself constitute an accuracy claim - see README Evaluation section.",
+
+  "GHI_Policy.pdf": {
+    "insurer_and_tpa.insurer_name.value": "Care Health Insurance Ltd.",
+    "insurer_and_tpa.tpa_name.found": false,
+    "previous_policy.policy_period_start.value": "2022-03-17",
+    "previous_policy.policy_period_end.value": "2023-03-16",
+    "demographics.primary_insured_members.value": 86,
+    "demographics.dependents_total.value": 66,
+    "demographics.total_lives_covered.value": 152,
+    "hospitalization.room_rent.room_rent_normal.status": "covered",
+    "hospitalization.pre_hospitalization_days.value": 30,
+    "hospitalization.post_hospitalization_days.value": 60,
+    "maternity.waiting_period_9_month.status": "waived_off",
+    "maternity.normal_delivery_limit.limit.amount": 75000,
+    "maternity.c_section_limit.limit.amount": 75000,
+    "waiting_periods.initial_30_day.status": "waived_off",
+    "waiting_periods.pre_existing_disease.status": "covered",
+    "waiting_periods.first_second_year.status": "waived_off"
+  },
+
+  "1_Policy_Copy.pdf": {
+    "insurer_and_tpa.insurer_name.value": "Care Health Insurance Ltd.",
+    "insurer_and_tpa.tpa_name.found": false,
+    "previous_policy.policy_period_start.value": "2022-04-02",
+    "previous_policy.policy_period_end.value": "2023-04-01",
+    "demographics.primary_insured_members.value": 115,
+    "demographics.dependents_total.value": 32,
+    "demographics.total_lives_covered.value": 147,
+    "maternity.waiting_period_9_month.status": "waived_off",
+    "maternity.normal_delivery_limit.limit.amount": 50000,
+    "maternity.c_section_limit.limit.amount": 50000,
+    "waiting_periods.initial_30_day.status": "waived_off",
+    "waiting_periods.pre_existing_disease.status": "covered"
+  },
+
+  "olj4KTUo9B1546-1692687606_925469_-_00_GMC_Renewal_Policy_00.pdf": {
+    "insurer_and_tpa.insurer_name.value": "Niva Bupa Health Insurance Company Limited",
+    "insurer_and_tpa.tpa_name.found": false,
+    "previous_policy.policy_period_start.value": "2023-08-01",
+    "previous_policy.policy_period_end.value": "2024-07-31",
+    "demographics.total_lives_covered.value": 20,
+    "hospitalization.pre_hospitalization_days.value": 30,
+    "hospitalization.post_hospitalization_days.value": 60,
+    "maternity.normal_delivery_limit.limit.amount": 25000,
+    "maternity.c_section_limit.limit.amount": 35000,
+    "waiting_periods.initial_30_day.status": "waived_off",
+    "waiting_periods.pre_existing_disease.status": "waived_off",
+    "waiting_periods.first_second_year.status": "waived_off"
+  }
+}

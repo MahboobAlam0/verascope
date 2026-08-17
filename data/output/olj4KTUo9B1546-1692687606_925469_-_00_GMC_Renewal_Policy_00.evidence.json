@@ -1,0 +1,135 @@
+{
+  "insurer_and_tpa.insurer_name": [
+    {
+      "page": 1,
+      "text": "Niva Bupa Health Insurance Company Limited (formerly known as Max Bupa Health Insurance Company Limited)",
+      "chunk_id": null
+    }
+  ],
+  "insurer_and_tpa.tpa_name": [
+    {
+      "page": 3,
+      "text": "Claims Administrator | Niva Bupa Health Insurance Company Limited (formerly known as Max Bupa Health Insurance Company Limited)",
+      "chunk_id": null
+    }
+  ],
+  "previous_policy.policy_period_start": [
+    {
+      "page": 3,
+      "text": "First Policy inception date | 01-August-2023",
+      "chunk_id": null
+    }
+  ],
+  "previous_policy.policy_period_end": [
+    {
+      "page": 3,
+      "text": "Date and time of Policy expiry | 31-July-2024",
+      "chunk_id": null
+    }
+  ],
+  "policy_structure.family_structure_description": [
+    {
+      "page": 3,
+      "text": "Family Structure | Employee, Spouse and Kids",
+      "chunk_id": null
+    }
+  ],
+  "demographics.primary_insured_members": [
+    {
+      "page": 3,
+      "text": "Total no of employees/Primary Members | 9",
+      "chunk_id": null
+    }
+  ],
+  "demographics.total_lives_covered": [
+    {
+      "page": 3,
+      "text": "Total no of Insured Members | 20",
+      "chunk_id": null
+    }
+  ],
+  "demographics.employees": [
+    {
+      "page": 3,
+      "text": "Total no of employees/Primary Members | 9",
+      "chunk_id": null
+    }
+  ],
+  "hospitalization.room_rent.room_rent_normal": [
+    {
+      "page": 3,
+      "text": "Normal | 1%",
+      "chunk_id": null
+    }
+  ],
+  "hospitalization.room_rent.room_rent_icu": [
+    {
+      "page": 3,
+      "text": "ICU | 2%",
+      "chunk_id": null
+    }
+  ],
+  "hospitalization.pre_hospitalization_days": [
+    {
+      "page": 3,
+      "text": "Pre Hospitalization Medical Expenses | Covered upto Sum Insured for 30 days",
+      "chunk_id": null
+    }
+  ],
+  "hospitalization.post_hospitalization_days": [
+    {
+      "page": 3,
+      "text": "Post Hospitalization Medical Expenses | Covered upto Sum Insured for 60 days",
+      "chunk_id": null
+    }
+  ],
+  "maternity.baby_day_one_cover": [
+    {
+      "page": 3,
+      "text": "New born baby would be covered from the date of delivery provided we receive the endorsement within 90 days of delivery.",
+      "chunk_id": null
+    }
+  ],
+  "maternity.normal_delivery_limit": [
+    {
+      "page": 3,
+      "text": "Normal 25,000",
+      "chunk_id": null
+    }
+  ],
+  "maternity.c_section_limit": [
+    {
+      "page": 3,
+      "text": "C-Section 35,000",
+      "chunk_id": null
+    }
+  ],
+  "waiting_periods.initial_30_day": [
+    {
+      "page": 3,
+      "text": "Initial Waiting Period | Waived Off",
+      "chunk_id": null
+    }
+  ],
+  "waiting_periods.first_second_year": [
+    {
+      "page": 3,
+      "text": "2 yr exclusions (Disease Specific Exclusions) | Waived Off",
+      "chunk_id": null
+    }
+  ],
+  "waiting_periods.pre_existing_disease": [
+    {
+      "page": 3,
+      "text": "Pre-Existing Disease (PED) | Waived Off",
+      "chunk_id": null
+    }
+  ],
+  "buffer_and_waivers.corporate_buffer_limit": [
+    {
+      "page": 3,
+      "text": "Corporate Floater | Not Covered; Corporate Floater Limit | NA",
+      "chunk_id": null
+    }
+  ]
+}

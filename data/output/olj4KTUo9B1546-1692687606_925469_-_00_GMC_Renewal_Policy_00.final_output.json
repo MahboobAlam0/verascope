@@ -1,0 +1,306 @@
+{
+  "document_metadata": {
+    "source_filename": "olj4KTUo9B1546-1692687606_925469_-_00_GMC_Renewal_Policy_00.pdf",
+    "document_type": "gmc_policy",
+    "document_type_confidence": 1.0,
+    "page_count": 6
+  },
+  "insurer_and_tpa": {
+    "insurer_name": {
+      "value": "Niva Bupa Health Insurance Company Limited",
+      "found": true
+    },
+    "tpa_name": {
+      "value": null,
+      "found": false
+    }
+  },
+  "previous_policy": {
+    "policy_period_start": {
+      "value": "2023-08-01",
+      "found": true
+    },
+    "policy_period_end": {
+      "value": "2024-07-31",
+      "found": true
+    },
+    "policy_tenure": {
+      "value": null,
+      "found": false
+    },
+    "inception_premium": {
+      "value": null,
+      "found": false
+    }
+  },
+  "policy_structure": {
+    "family_structure_description": {
+      "value": "Employee, Spouse and Kids",
+      "found": true
+    },
+    "sum_insured_tiers": [
+      500000.0
+    ]
+  },
+  "demographics": {
+    "primary_insured_members": {
+      "value": 9.0,
+      "found": true
+    },
+    "dependents_total": {
+      "value": null,
+      "found": false
+    },
+    "total_lives_covered": {
+      "value": 20.0,
+      "found": true
+    },
+    "employees": {
+      "value": 9.0,
+      "found": true
+    },
+    "spouses": {
+      "value": null,
+      "found": false
+    },
+    "children": {
+      "value": null,
+      "found": false
+    },
+    "parents": {
+      "value": null,
+      "found": false
+    },
+    "parents_in_law": {
+      "value": null,
+      "found": false
+    }
+  },
+  "hospitalization": {
+    "room_rent": {
+      "room_rent_normal": {
+        "status": "covered",
+        "limit": {
+          "limit_type": "percent_of_si",
+          "amount": 1.0,
+          "currency": null
+        },
+        "conditions": [
+          "If the Insured Person is admitted in the Hospital in a room category or in a room where the Room Rent is higher than the eligibility as specified above, then Niva Bupa shall be liable to pay only a pro-rated proportion of the total Associated Medical Expenses (including surcharge or taxes thereon) in the proportion of the difference between the Room Rent actually incurred and the entitled room category/eligible Room Rent."
+        ]
+      },
+      "room_rent_icu": {
+        "status": "covered",
+        "limit": {
+          "limit_type": "percent_of_si",
+          "amount": 2.0,
+          "currency": null
+        },
+        "conditions": [
+          "If the Insured Person is admitted in the Hospital in a room category or in a room where the Room Rent is higher than the eligibility as specified above, then Niva Bupa shall be liable to pay only a pro-rated proportion of the total Associated Medical Expenses (including surcharge or taxes thereon) in the proportion of the difference between the Room Rent actually incurred and the entitled room category/eligible Room Rent."
+        ]
+      }
+    },
+    "pre_hospitalization_days": {
+      "value": 30.0,
+      "found": true
+    },
+    "post_hospitalization_days": {
+      "value": 60.0,
+      "found": true
+    }
+  },
+  "maternity": {
+    "waiting_period_9_month": {
+      "status": "not_specified",
+      "limit": null,
+      "conditions": []
+    },
+    "baby_day_one_cover": {
+      "status": "covered",
+      "limit": null,
+      "conditions": [
+        "New born baby would be covered from the date of delivery provided we receive the endorsement within 90 days of delivery."
+      ]
+    },
+    "vaccination_coverage": {
+      "status": "not_specified",
+      "limit": null,
+      "conditions": []
+    },
+    "normal_delivery_limit": {
+      "status": "covered",
+      "limit": {
+        "limit_type": "flat_amount",
+        "amount": 25000.0,
+        "currency": "INR"
+      },
+      "conditions": []
+    },
+    "normal_delivery_limit_metro": {
+      "status": "not_specified",
+      "limit": null,
+      "conditions": []
+    },
+    "normal_delivery_limit_non_metro": {
+      "status": "not_specified",
+      "limit": null,
+      "conditions": []
+    },
+    "c_section_limit": {
+      "status": "covered",
+      "limit": {
+        "limit_type": "flat_amount",
+        "amount": 35000.0,
+        "currency": "INR"
+      },
+      "conditions": []
+    },
+    "c_section_limit_metro": {
+      "status": "not_specified",
+      "limit": null,
+      "conditions": []
+    },
+    "c_section_limit_non_metro": {
+      "status": "not_specified",
+      "limit": null,
+      "conditions": []
+    }
+  },
+  "waiting_periods": {
+    "initial_30_day": {
+      "status": "waived_off",
+      "limit": null,
+      "conditions": []
+    },
+    "first_second_year": {
+      "status": "waived_off",
+      "limit": null,
+      "conditions": []
+    },
+    "pre_existing_disease": {
+      "status": "waived_off",
+      "limit": null,
+      "conditions": []
+    }
+  },
+  "other_benefits": {
+    "day_care": {
+      "status": "not_specified",
+      "limit": null,
+      "conditions": []
+    },
+    "opd": {
+      "status": "not_specified",
+      "limit": null,
+      "conditions": []
+    },
+    "teleconsultation": {
+      "status": "not_specified",
+      "limit": null,
+      "conditions": []
+    },
+    "pharmacy_discount": {
+      "status": "not_specified",
+      "limit": null,
+      "conditions": []
+    },
+    "domiciliary_hospitalization": {
+      "status": "not_specified",
+      "limit": null,
+      "conditions": []
+    },
+    "annual_health_checkup": {
+      "status": "not_specified",
+      "limit": null,
+      "conditions": []
+    },
+    "modern_treatment": {
+      "status": "not_specified",
+      "limit": null,
+      "conditions": []
+    },
+    "bariatric_treatment": {
+      "status": "not_specified",
+      "limit": null,
+      "conditions": []
+    },
+    "psychiatric_treatment": {
+      "status": "not_specified",
+      "limit": null,
+      "conditions": []
+    },
+    "ayush_treatment": {
+      "status": "not_specified",
+      "limit": null,
+      "conditions": []
+    },
+    "lgbtq_coverage": {
+      "status": "not_specified",
+      "limit": null,
+      "conditions": []
+    },
+    "live_in_partner_coverage": {
+      "status": "not_specified",
+      "limit": null,
+      "conditions": []
+    },
+    "organ_donor_expenses": {
+      "status": "not_specified",
+      "limit": null,
+      "conditions": []
+    }
+  },
+  "infertility_and_ambulance": {
+    "infertility_treatment": {
+      "status": "not_specified",
+      "limit": null,
+      "conditions": []
+    },
+    "surrogacy": {
+      "status": "not_specified",
+      "limit": null,
+      "conditions": []
+    },
+    "ambulance": {
+      "status": "not_specified",
+      "limit": null,
+      "conditions": []
+    },
+    "air_ambulance": {
+      "status": "not_specified",
+      "limit": null,
+      "conditions": []
+    }
+  },
+  "buffer_and_waivers": {
+    "corporate_buffer_limit": {
+      "status": "not_covered",
+      "limit": null,
+      "conditions": []
+    },
+    "disease_wise_capping": [
+      "Haemorrhoidectomy including Cost of stapler- 40000",
+      "Haemorrhoidectomy and Fissurectomy in a single sitting-35000",
+      "Cholecystectomy- 35000",
+      "Hernioplasty/Herniorraphy- Unilateral including cost of mesh and tacker- 45000",
+      "Hernioplasty/Herniorraphy- Bilateral including Cost of mesh and tacker-50000",
+      "URS (therapeutic) Including cost of laser treatment-35000",
+      "PCNL- Unilateral-50000",
+      "PCNL- Bilateral-60000",
+      "Hydrocele-25000",
+      "Appendicectomy-45000",
+      "Cataract per eye including Cost of Lens-25000",
+      "Hysterectomy (Abdominal/Vaginal)-55000",
+      "Total Knee Replacement(Unilateral) including cost of implants-100000",
+      "Total Knee Replacement (Bilateral) including cost of implants-150000",
+      "Hip Replacement (Unilateral) including cost of implants-100000",
+      "Hip Replacement (Bilateral) including cost of implants-150000"
+    ]
+  },
+  "processing_notes": [
+    "Stage 'other_benefits': LLM call failed (Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kfxg9q27fmdt8r31bdr9e98z` service tier `on_demand` on tokens per day (TPD): Limit 200); using default values.",
+    "Stage 'infertility_and_ambulance': LLM call failed (Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kfxg9q27fmdt8r31bdr9e98z` service tier `on_demand` on tokens per day (TPD): Limit 200); using default values.",
+    "Missing required fields: insurer_and_tpa.tpa_name"
+  ]
+}
