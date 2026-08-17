@@ -21,8 +21,7 @@ env/
 .DS_Store
 Thumbs.db
 
-# Editor/IDE - shared launch/settings/extensions configs are tracked
-# on purpose (README points to them), everything else in .vscode/ isn't.
+# Editor/IDE noise
 .vscode/*
 !.vscode/launch.json
 !.vscode/settings.json
@@ -30,10 +29,7 @@ Thumbs.db
 .idea/
 
 # data/output/ holds this project's actual generated results
-# (final_output.json / evidence.json per document) - these are real
-# deliverables the README's Results section refers to, not throwaway
-# build artifacts, so they're tracked rather than ignored.
-.vscode
+
 
 data/input/1_Policy_Copy.pdf
 data/input/GHI_Policy.pdf
@@ -41,5 +37,3 @@ data/input/Net_Catalyst_-_GPA_-_Policy_Copy_-_2022-23.pdf
 data/input/olj4KTUo9B1546-1692687606_925469_-_00_GMC_Renewal_Policy_00.pdf
 data/input/Policy_liberty_2022-2023.pdf
 
-# Local input PDFs are provided by the assignment sample set and checked in
-# under data/input/ deliberately, so no ignore rule for that directory.
