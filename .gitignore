@@ -33,6 +33,9 @@ Thumbs.db
 # (final_output.json / evidence.json per document) - these are real
 # deliverables the README's Results section refers to, not throwaway
 # build artifacts, so they're tracked rather than ignored.
+.venv/
+
+data/input
 
 # Local input PDFs are provided by the assignment sample set and checked in
 # under data/input/ deliberately, so no ignore rule for that directory.
